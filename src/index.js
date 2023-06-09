@@ -19,4 +19,4 @@ const {handleError} = require("./errors/handle-errors-middleware");
 app.use(handleError);
 
 const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
+app.listen(PORT, () => console.log(`Appa listening on port ${PORT}!`));
